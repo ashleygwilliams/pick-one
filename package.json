@@ -1,0 +1,28 @@
+{
+  "name": "pick-one",
+  "version": "1.0.0",
+  "description": "small module for randomly sampling an item in an array",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashleygwilliams/pick-one.git"
+  },
+  "keywords": [
+    "array",
+    "random",
+    "sample"
+  ],
+  "author": "ag_dubs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashleygwilliams/pick-one/issues"
+  },
+  "homepage": "https://github.com/ashleygwilliams/pick-one#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
